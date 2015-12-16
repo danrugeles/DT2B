@@ -5,6 +5,8 @@
 Yin Yang Latent Dirichlet Allocation 
 ---------------------------
 
+![alt text](Figures/1.png)
+
 Daniel Rugeles and Kaiqi Zhao
 daniel007[at]ntu.edu.sg
 
