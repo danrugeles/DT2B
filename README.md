@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # YLDA
 
+=======
+>>>>>>> 9b807e3efa5e918098db382aa9e77219c3c10b5a
 ---------------------------
 Yin Yang Latent Dirichlet Allocation 
 ---------------------------
