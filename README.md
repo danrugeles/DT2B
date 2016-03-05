@@ -1,8 +1,8 @@
 
-# YLDA
+# YMM
 
 ---------------------------
-Yin Yang Latent Dirichlet Allocation 
+Yin Yang Mixture Model
 ---------------------------
 
 ![alt text](Figures/1.png)
@@ -38,7 +38,7 @@ E. MODEL EXECUTION
 
 A. CONTENT
 
-Yin Yang Latent Dirichlet Allocation is a probabilistic bayesian model with the following specification:  
+Yin Yang Mixture Model is a probabilistic model with the following specification:  
 
 
 Input: 
@@ -53,7 +53,7 @@ Comments:
 - The relationship between the two variables must be many-to-many. eg. <Users, Places> , <Users, Movies>, <Genes and Samples> ...               
 - The clusters are given as distributions over the variables. This is the same description used by the mixture models.
               
-Yin Yang Latent Dirichlet Allocation may be used as:  
+Yin Yang Mixture Model may be used as:  
 
 1. Biclustering algorithm.
 2. Categorical Mixture model of two dependent random variables.  
