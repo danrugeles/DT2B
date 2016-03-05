@@ -1,8 +1,8 @@
 
-# YMM
+# YLDA
 
 ---------------------------
-Yin Yang Mixture Model
+Yin Yang Latent Dirichlet Allocation 
 ---------------------------
 
 ![alt text](Figures/1.png)
@@ -38,7 +38,7 @@ E. MODEL EXECUTION
 
 A. CONTENT
 
-Yin Yang Mixture Model is a probabilistic model with the following specification:  
+Yin Yang Latent Dirichlet Allocation is a probabilistic bayesian model with the following specification:  
 
 
 Input: 
@@ -53,7 +53,7 @@ Comments:
 - The relationship between the two variables must be many-to-many. eg. <Users, Places> , <Users, Movies>, <Genes and Samples> ...               
 - The clusters are given as distributions over the variables. This is the same description used by the mixture models.
               
-Yin Yang Mixture Model may be used as:  
+Yin Yang Latent Dirichlet Allocation may be used as:  
 
 1. Biclustering algorithm.
 2. Categorical Mixture model of two dependent random variables.  
@@ -69,7 +69,7 @@ B. CONTENT
 | ------------- |-------------| 
 | Extended_Report.pdf      | Detailed explanation of the model | 
 | main.py      | Parses the input arguments and starts the inference process.     |   
-| ymm.py | Interface between python and C.     |   
+| ylda.py | Interface between python and C.     |   
 | aux.py | Includes auxiliary functions.      |   
 | C/ | Directory including the inference process written in C.      |   
 | data.csv | Sample <Author, Word> pairs taken randomly from  [NIPS](http://www.datalab.uci.edu/author-topic/NIPs.htm) dataset.        |   
@@ -127,5 +127,4 @@ To extract five user-topics and five place-topics given the file data.csv as inp
 $ python main.py -v -f data.csv --ku 5 --kp 5 
 
 ------------------------------------------------------------------------
-
 
