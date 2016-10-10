@@ -1,8 +1,8 @@
 
-# YMM
+# DT2B
 
 ---------------------------
-Yin Yang Mixture Model
+Dual Topics to Bicluster Model
 ---------------------------
 
 ![alt text](Figures/1.png)
@@ -10,7 +10,7 @@ Yin Yang Mixture Model
 Daniel Rugeles and Kaiqi Zhao
 daniel007[at]ntu.edu.sg
 
-(C) Copyright 2015, Daniel Rugeles and Kaiqi Zhao
+(C) Copyright 2016, Daniel Rugeles and Kaiqi Zhao
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -38,27 +38,27 @@ E. MODEL EXECUTION
 
 A. CONTENT
 
-Yin Yang Mixture Model is a probabilistic model with the following specification:  
+DT2B is a probabilistic model with the following specification:  
 
 
 Input: 
 - Instances of two variables.  
 
 Output: 
-- Clusters over the first variable.  
-- Clusters over the second variable.     
+- Topics of the first variable.  
+- Topics of the second variable.     
 - Relationship between the topics.  
 
 Comments:
 - The relationship between the two variables must be many-to-many. eg. <Users, Places> , <Users, Movies>, <Genes and Samples> ...               
 - The clusters are given as distributions over the variables. This is the same description used by the mixture models.
               
-Yin Yang Mixture Model may be used as:  
+DT2B may be used as:  
 
 1. Biclustering algorithm.
 2. Categorical Mixture model of two dependent random variables.  
 3. Model the joint probability of two sparse random variables. 
-4. Part of a more complex probability model.  
+4. Part of a more complex model.  
 
 
 ------------------------------------------------------------------------
