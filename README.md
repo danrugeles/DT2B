@@ -50,7 +50,7 @@ Output:
 - Relationship between the topics.  
 
 Comments:
-- The relationship between the two variables must be many-to-many. eg. <Users, Places> , <Users, Movies>, <Genes and Samples> ...               
+- The relationship between the two variables must be many-to-many. eg. places visited by users , movies watched by users and words written by authors.              
 - The clusters are given as distributions over the variables. This is the same description used by the mixture models.
               
 DT2B may be used as:  
@@ -73,14 +73,16 @@ B. CONTENT
 | dt2b_c.py | Interface between python and C.     |   
 | aux.py | Includes auxiliary functions.      |   
 | C/ | Directory including the inference process written in C.      |   
-| data.csv | Sample <Author, Word> pairs taken randomly from  [NIPS](http://www.datalab.uci.edu/author-topic/NIPs.htm) dataset.        |   
+| data.csv | Sample (Author, Word) pairs taken randomly from  [NIPS](http://www.datalab.uci.edu/author-topic/NIPs.htm) dataset.        |   
 
 
 ------------------------------------------------------------------------  
 
 C. COMPILING  
 
-Navigate inside the directory called C and Type "make" in a shell.   
+Navigate inside the directory called C and Type "make" in a shell.  
+
+GNU GSL library is required for the random sampling. Please visit ftp://ftp.gnu.org/gnu/gsl/
 
 ------------------------------------------------------------------------  
 
